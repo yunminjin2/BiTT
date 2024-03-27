@@ -1,0 +1,10 @@
+*.pth
+*.pkl
+*.jpg
+*.png
+*.cpyton
+*.pyc
+
+HTML/
+experiments/
+test_imgs/

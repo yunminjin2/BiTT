@@ -1,0 +1,48 @@
+SEED: 25
+MODEL_TYPE: 'BiTT'
+MISC:
+  MANO_PATH: "misc/mano"
+  GRAPH_LEFT_DICT_PATH: "misc/graph_left.pkl"
+  GRAPH_RIGHT_DICT_PATH: "misc/graph_right.pkl"
+  DENSE_COLOR: "misc/v_color.pkl"
+  MANO_SEG_PATH: "misc/mano_seg.pkl"
+  UPSAMPLE_PATH: "misc/upsample.pkl"
+  TEX_PATH: "HTML/TextureBasis/model_wosr/model.pkl"
+  UVS_PATH: "HTML/TextureBasis"
+HAND: 'both'
+IMG_SIZE: 256
+UV_SIZE: 1024
+REFINE_MASK: True
+INTAGHANDMODEL:
+  ENCODER_TYPE: "resnet50"
+  DECONV_DIMS: [256, 256, 256, 256]
+  IMG_DIMS: [256, 128, 64]
+  GCN_IN_DIM: [512, 256, 128]
+  GCN_OUT_DIM: [256, 128, 64]
+  ENCODER_PRETRAIN_PATH: "none"
+  freeze_upsample: True
+  graph_k: 2
+  graph_layer_num: 4
+INTAGHAND_PATH:
+  MODEL_PRETRAIN_PATH: "misc/model/interhand.pth"
+MODEL:
+  USE_GT_SHAPE: True # If false, use intaghand predicted shape
+  COARSE_ESTIMATION: True
+  HAND_TYPE: "BOTH"
+  PRETRAIN_PATH: none
+  ENCODING_CHANNEL: [16, 64, 128, 256]
+DATASET:
+  DATASET: 'Custom'
+  LIMIT: 300
+TRAIN:
+  lr_decay_step: 200
+  lr_decay_gamma: 0.5
+  EPOCHS: 10
+  BATCH_SIZE: 1
+  LR: 1.0e-3
+  dropout: 0.05
+TEST:
+  NOVEL_VIEW: True
+  NOVEL_POSE: True
+SAVE:
+  FOLDER_PATH: './experiments/'

@@ -30,8 +30,7 @@ You can install environments either using conda or pip.
 
 ### Pip Install
 1. First, we install pytorch version 1.x.0. Please install torch version 1.x.0 with correspoding to you CUDA version (You can check torch versions at [here](https://pytorch.org/get-started/previous-versions/)). Following command are used in our work. 
-<pre><code> pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
- </code></pre>
+<pre><code> pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113</code></pre>
 
 2. Second, install [Pytorch3D](https://pytorch3d.org/) referencing [`INSTALL.md`](https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md). Following command are used in our work. 
 <pre><code> pip install "git+https://github.com/facebookresearch/pytorch3d.git"</code></pre>

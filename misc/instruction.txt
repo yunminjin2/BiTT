@@ -1,0 +1,1 @@
+Follow IntagHand instructions. In this path, there are files (graph_left.pkl, graph_right.pkl, upsample.pkl, v_color.pkl)

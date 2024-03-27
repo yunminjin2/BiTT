@@ -1,0 +1,1 @@
+Put MANO_LEFT.pkl, MANO_RIGHT.pkl file here.

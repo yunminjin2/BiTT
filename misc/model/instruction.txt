@@ -1,0 +1,1 @@
+Put interhandwild.pth, wild_demo.pth here from IntagHand.

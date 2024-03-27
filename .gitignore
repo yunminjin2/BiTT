@@ -5,8 +5,6 @@
 *.cpyton
 *.pyc
 
-HTML/*
 experiments/*
-test_imgs/*
 
 !assets/Teaser.png

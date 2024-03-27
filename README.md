@@ -25,7 +25,7 @@ You can install environments either using conda or pip.
 
 ### Conda Install
 1. Create conda environment using following command.
-<pre><code> conda env create -f environments.yaml </code></pre>
+<pre><code> conda env create -f environment.yaml </code></pre>
 
 
 ### Pip Install
@@ -37,7 +37,7 @@ You can install environments either using conda or pip.
 <pre><code> pip install "git+https://github.com/facebookresearch/pytorch3d.git"</code></pre>
 
 3. Finally, install python libraries using following command.
-<pre><code> pip install -r requirements</code></pre>
+<pre><code> pip install -r requirements.txt</code></pre>
 
 
 **[!Required]** <b>Our model mainly utilizes hand texture parametric model ([HTML](https://handtracker.mpi-inf.mpg.de/projects/HandTextureModel/)). You need to get download HTML files from [its official website](https://handtracker.mpi-inf.mpg.de/projects/HandTextureModel/) and put it into `HTML` folder. </b>

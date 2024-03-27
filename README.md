@@ -94,6 +94,6 @@ If you find this work useful, please consider citing our paper.
 &nbsp;
 
 ## Acknowledgements
- - Our code is based on [IntagHand](https://github.com/Dw1010/IntagHand). Our work uses [HTML](https://handtracker.mpi-inf.mpg.de/projects/HandTextureModel/) pre-trained weights. We thank the authors of these three inspiring works.
+ - Our code is based on [IntagHand](https://github.com/Dw1010/IntagHand). Our work uses [HTML](https://handtracker.mpi-inf.mpg.de/projects/HandTextureModel/) pre-trained weights. We thank the authors of these inspiring works.
  - We also thank the authors of [InterHand2.6M](https://mks0601.github.io/InterHand2.6M/), [RGB2Hands](https://handtracker.mpi-inf.mpg.de/projects/RGB2Hands/Benchmark/RGB2HandsBenchmark.htm) for the useful dataset.
  - The renderer are based on the renderer from [Pytorch3D](https://pytorch3d.org/). 

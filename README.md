@@ -42,7 +42,7 @@ You can install environments either using conda or pip.
 
 **[!Required]** <b>Our model mainly utilizes hand texture parametric model ([HTML](https://handtracker.mpi-inf.mpg.de/projects/HandTextureModel/)). You need to get download HTML files from [its official website](https://handtracker.mpi-inf.mpg.de/projects/HandTextureModel/) and put it into `HTML` folder. </b>
 
-**[Optional]** Follow [IntagHand](https://github.com/Dw1010/IntagHand.git) instructions for installing intaghand method. It is required when using instead of ground truth mesh. You need to put pre-trained model and data in `misc   ` folder, same as to their instruction.
+**[Optional]** Follow [IntagHand](https://github.com/Dw1010/IntagHand.git) instructions for installing intaghand method. It is required when using instead of ground truth mesh. You need to put pre-trained model and data in `misc` folder, same as to their instruction.
 
 &nbsp;
 

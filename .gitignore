@@ -8,3 +8,4 @@
 experiments/*
 
 !assets/Teaser.png
+!demo/*

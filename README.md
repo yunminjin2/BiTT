@@ -49,7 +49,7 @@ You can install environments either using conda or pip.
 
 As our model has ease on training (requires only one image, (annotation)), we provide demo version. You can easily train our model with following command. 
 
-<pre><code> python main.py --custom --gpu 0 --train --test --img demo/01.jpg --hand_dict demo/01.pkl --pose demo/02.jpg --pose_dict demo/02.pkl </code></pre>
+<pre><code> python main.py --custom --gpu 0 --train --test --img demo/01.jpg --hand_dict demo/01.pkl --pose demo/02.jpg --pose_dict demo/02.pkl --cfg ./utils/custom_configs.yaml </code></pre>
 
 
 

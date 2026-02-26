@@ -1,1 +1,3 @@
 Put HTML files here.
+
+After downloading and unzipping HTML files, replace 'utils/HTML.py' and 'utils/MANO_SMPL.py' with our 'HTML.py' and 'MANO_SMPL.py' files. 
